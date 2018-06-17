@@ -2,7 +2,7 @@
   "name": "vue-any-loading",
   "version": "1.0.0",
   "description": "A custom vue-directive for set DOM element or component's loading style.",
-  "main": "index.js",
+  "main": "release/vue-any-loading.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --config webpack.config.js",
@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/hiNISAL/vue-any-loading#readme",
   "dependencies": {
-    "vue": "^2.5.16"
   },
   "devDependencies": {
+    "vue": "^2.5.16",
     "babel": "^6.23.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",

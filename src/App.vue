@@ -3,21 +3,6 @@
     <div id="demo" v-loading="isLoading">
       哼
     </div>
-
-    <table v-loading="isLoading">
-      <thead>
-        <tr>
-          <td>a</td>
-          <td>b</td>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td>2</td>
-        </tr>
-      </tbody>
-    </table>
     <button @click="isLoading = !isLoading">Click me</button>
 
   </div>
