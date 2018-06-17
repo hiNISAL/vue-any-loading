@@ -8,8 +8,8 @@ module.exports = {
   output: {
     library: 'VueAnyLoading',
     libraryTarget: 'umd',
-    filename: 'vue-any-loading.js',
-    path: resolve(__dirname, './release')
+    filename: 'index.js',
+    path: resolve(__dirname, './release/dist')
   },
   module: {
     rules: [

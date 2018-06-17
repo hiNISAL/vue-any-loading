@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import App from './App.vue';
-import { vLoading } from '../release/vue-any-loading';
+import { vLoading } from 'vue-any-loading';
 
 Vue.directive('loading', vLoading);
 
